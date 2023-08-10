@@ -17,13 +17,13 @@ public class Main {
     public static  void main(String[]args){
         Product p = new Product();
         //task 2
-        System.out.println(p.product(0,1));
+        p.product(0,1);
 
         //task 3
-        System.out.println(p.product(1,1,1));
+        p.product(1,1,1);
 
         //task 4
-        System.out.println(p.product(44.5,5.5));
+        p.product(44.5,5.5);
 
     }
 }
